@@ -12,7 +12,10 @@ export const FeaturedStory = () => (
 		<PlaceholderBox aspectRatio="3/4" />
 		<div>
 			<h3 style={{ marginTop: "0" }}>Story title</h3>
-			<p>Eu dolor laborum ullamco tempor do fugiat mollit.</p>
+			<p>
+				Consequat veniam non cupidatat eiusmod qui nostrud do nisi ea deserunt
+				laborum.
+			</p>
 			<BlurButton variant="filled">Read/watch more</BlurButton>
 		</div>
 	</div>
