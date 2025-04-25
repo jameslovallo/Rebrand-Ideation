@@ -33,12 +33,6 @@ export const HomeFaq = () => (
 				and our team will notify you as soon as they become available.
 			</p>
 		</AccordionItem>
-		<AccordionItem title="Does Transcend offer international shipping or service?">
-			<p>
-				Currently, we only serve within the 50 United States and the District of
-				Columbia.
-			</p>
-		</AccordionItem>
 		<AccordionItem title="I recently underwent lab work elsewhere; will Transcend accept those results?">
 			<p>
 				At Transcend, our assessments require a unique and comprehensive blood
@@ -52,6 +46,12 @@ export const HomeFaq = () => (
 				For personalized assistance or further questions, please contact our
 				support team. We're here to ensure your health evaluation is thorough
 				and tailored to you.
+			</p>
+		</AccordionItem>
+		<AccordionItem title="Does Transcend offer international shipping or service?">
+			<p>
+				Currently, we only serve within the 50 United States and the District of
+				Columbia.
 			</p>
 		</AccordionItem>
 		<AccordionItem title="Are there any age restrictions for your services?">
