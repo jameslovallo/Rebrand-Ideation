@@ -21,6 +21,9 @@
 .buttons {
 	align-items: center;
 	display: flex;
-	gap: 1rem;
 	margin-top: 2rem;
+}
+
+.buttons > *:first-child {
+	margin-right: 1rem;
 }
