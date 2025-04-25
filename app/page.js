@@ -13,6 +13,10 @@ export default function Home() {
 
 			<section>
 				<h2>Are you ready to change your life?</h2>
+				<p>
+					Board-certified doctors. Licensed in all 50 states. Shipped to your
+					door.
+				</p>
 				<HomeCategories />
 			</section>
 
