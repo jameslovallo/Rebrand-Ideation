@@ -1,5 +1,6 @@
 import styles from "./nav.module.css";
 import Image from "next/image";
+import { BlurButton, button } from "./blur-button";
 
 export const Nav = () => (
 	<nav className={styles.mainNav}>
@@ -16,9 +17,6 @@ export const Nav = () => (
 				</a>
 			</li>
 			<li>
-				<a href="#">Get started</a>
-			</li>
-			<li>
 				<a href="#">Shop</a>
 			</li>
 			<li>
@@ -29,6 +27,9 @@ export const Nav = () => (
 			</li>
 			<li>
 				<a href="#">Our story</a>
+			</li>
+			<li>
+				<BlurButton variant="filled">GET STARTED</BlurButton>
 			</li>
 			<li>
 				<a href="#">

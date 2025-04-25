@@ -37,6 +37,8 @@
 	color: 1px solid currentColor;
 	display: inline block;
 	font-size: 14px;
+	font-weight: bold;
 	padding: 0.5rem 1rem;
 	text-decoration: none;
+	text-transform: uppercase;
 }
