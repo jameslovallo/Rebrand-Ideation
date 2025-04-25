@@ -4,7 +4,7 @@ import { HomeCategories } from "@/features/home-categories";
 import { HomeSteps } from "@/features/home-steps";
 import { HomePodcast } from "@/features/home-podcast";
 import { HomeFaq } from "@/features/home-faq";
-import { BlurButton, Grid, PlaceholderBox } from "@/components";
+import { BlurButton, FeaturedStory, Grid, PlaceholderBox } from "@/components";
 
 export default function Home() {
 	return (
@@ -78,6 +78,14 @@ export default function Home() {
 			<section>
 				<h2>Check out our podcast</h2>
 				<HomePodcast />
+			</section>
+
+			<section>
+				<h2>Featured stories</h2>
+				<Grid scale="400px" gap="2rem">
+					<FeaturedStory />
+					<FeaturedStory />
+				</Grid>
 			</section>
 
 			<section>
