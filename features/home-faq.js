@@ -1,4 +1,4 @@
-import { AccordionItem } from "@/components";
+import { AccordionItem, BlurButton } from "@/components";
 
 export const HomeFaq = () => (
 	<>
@@ -61,5 +61,7 @@ export const HomeFaq = () => (
 				your eligibility for treatment based on your age and objectives.
 			</p>
 		</AccordionItem>
+		<br />
+		<BlurButton variant="filled">Get Started</BlurButton>
 	</>
 );

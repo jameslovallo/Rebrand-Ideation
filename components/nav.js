@@ -7,7 +7,7 @@ export const Nav = () => (
 			<li>
 				<a href="#">
 					<Image
-						src="/logo-light.webp"
+						src="/logo-light-flat.webp"
 						alt="Vercel Logo"
 						className={styles.logo}
 						height="31"
@@ -16,7 +16,7 @@ export const Nav = () => (
 				</a>
 			</li>
 			<li>
-				<a href="#">How it works</a>
+				<a href="#">Get started</a>
 			</li>
 			<li>
 				<a href="#">Shop</a>

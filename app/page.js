@@ -22,24 +22,30 @@ export default function Home() {
 			</section>
 
 			<section>
-				<h2>Interactive content based on referral source</h2>
+				<h2>Interactive content</h2>
 				<p>
-					Fugiat consequat aute sint excepteur aliquip tempor occaecat.
-					Consequat veniam non cupidatat eiusmod qui nostrud do nisi ea deserunt
-					laborum. Consequat eu cupidatat nostrud non cillum ad irure consequat
-					aute ullamco. Voluptate nostrud pariatur cillum exercitation laborum
-					quis.
+					This would be customized based on the referral source, or past
+					behavior, and feature interactive components aligned with a specific
+					treatment (see Hims or Hers). Interacting with these elements would
+					lead users to the intake form.
 				</p>
+				<PlaceholderBox aspectRatio="21/9" />
 			</section>
 
 			<section>
 				<h2>Featured treatments</h2>
+				<p>
+					This would be customized based on the referral source, or past
+					behavior
+				</p>
 				<Grid scale="200px" gap="1rem">
-					<PlaceholderBox />
-					<PlaceholderBox />
-					<PlaceholderBox />
-					<PlaceholderBox />
+					<PlaceholderBox aspectRatio="1" />
+					<PlaceholderBox aspectRatio="1" />
+					<PlaceholderBox aspectRatio="1" />
+					<PlaceholderBox aspectRatio="1" />
 				</Grid>
+				<br />
+				<BlurButton variant="filled">View all</BlurButton>
 			</section>
 
 			<section>
