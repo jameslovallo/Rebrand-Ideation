@@ -29,7 +29,7 @@ export default function Home() {
 					treatment (see Hims or Hers). Interacting with these elements would
 					lead users to the intake form.
 				</p>
-				<PlaceholderBox aspectRatio="21/9" />
+				<PlaceholderBox aspectRatio="21/9">Interactive content</PlaceholderBox>
 			</section>
 
 			<section>
@@ -39,10 +39,10 @@ export default function Home() {
 					behavior
 				</p>
 				<Grid scale="200px" gap="1rem">
-					<PlaceholderBox aspectRatio="1" />
-					<PlaceholderBox aspectRatio="1" />
-					<PlaceholderBox aspectRatio="1" />
-					<PlaceholderBox aspectRatio="1" />
+					<PlaceholderBox aspectRatio="1">Product</PlaceholderBox>
+					<PlaceholderBox aspectRatio="1">Product</PlaceholderBox>
+					<PlaceholderBox aspectRatio="1">Product</PlaceholderBox>
+					<PlaceholderBox aspectRatio="1">Product</PlaceholderBox>
 				</Grid>
 				<br />
 				<BlurButton variant="filled">View all</BlurButton>

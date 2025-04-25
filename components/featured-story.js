@@ -9,7 +9,7 @@ export const FeaturedStory = () => (
 			gap: "1rem",
 		}}
 	>
-		<PlaceholderBox aspectRatio="3/4" />
+		<PlaceholderBox aspectRatio="3/4">Influencer GIF</PlaceholderBox>
 		<div>
 			<h3 style={{ marginTop: "0" }}>Story title</h3>
 			<p>
