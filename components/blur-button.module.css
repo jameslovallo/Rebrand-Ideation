@@ -1,0 +1,42 @@
+.text {
+	background: transparent;
+	border: none;
+	color: currentColor;
+	display: inline block;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	border-radius: 5rem;
+}
+
+.text:hover {
+	background: #fff4;
+}
+
+.media {
+	aspect-ratio: 1;
+	background: white;
+	border: none;
+	display: inline block;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 0.5rem;
+	border-radius: 5rem;
+}
+
+.media svg {
+	fill: black;
+	height: 24px;
+	width: 24px;
+}
+
+.filled {
+	background: var(--neutral-weak);
+	border-radius: 5rem;
+	border: none;
+	color: 1px solid currentColor;
+	display: inline block;
+	font-size: 14px;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+}

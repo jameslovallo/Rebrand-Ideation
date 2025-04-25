@@ -1,0 +1,24 @@
+.accordion {
+	border-top: 1px solid var(--neutral-weak);
+}
+
+.accordion:first-of-type {
+	margin-top: 2rem;
+}
+
+.accordion:last-of-type {
+	border-bottom: 1px solid var(--neutral-weak);
+}
+
+.accordion summary {
+	--webkit-details-marker: none;
+	cursor: pointer;
+	font-size: var(--fs-md);
+	list-style: none;
+	margin: 0;
+	padding: 1em 1rem 1em 0;
+}
+
+.accordion summary::marker {
+	content: none;
+}

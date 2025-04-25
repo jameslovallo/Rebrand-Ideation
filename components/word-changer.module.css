@@ -1,0 +1,13 @@
+.wrapper {
+	display: inline-grid;
+	height: 1.25em;
+	overflow: hidden;
+	overflow-behavior: clip;
+	position: relative;
+	scroll-behavior: smooth;
+}
+
+.word {
+	position: relative;
+	transition: top 0.5s ease-in-out;
+}

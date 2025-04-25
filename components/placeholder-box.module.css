@@ -1,0 +1,6 @@
+.box {
+	aspect-ratio: 4/3;
+	background: var(--neutral-weak);
+	border-radius: 0.5rem;
+	gap: 1rem;
+}
