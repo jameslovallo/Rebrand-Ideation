@@ -1,5 +1,5 @@
 import styles from "./category-card.module.css";
-import categories from "@/style/categories";
+import categories from "@/data/categories";
 
 export const CategoryCard = ({ category, children }) => {
 	const { strong, weak } = categories[category];

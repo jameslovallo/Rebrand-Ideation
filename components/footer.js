@@ -4,7 +4,7 @@ export const Footer = () => (
 			display: "grid",
 			placeItems: "center",
 			height: "32rem",
-			background: "var(--neutral-strong)",
+			background: "var(--noble-black)",
 			color: "var(--neutral-weak)",
 		}}
 	>

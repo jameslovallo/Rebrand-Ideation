@@ -1,7 +1,7 @@
 import styles from "./home-hero.module.css";
 import { BlurButton, WordChanger } from "@/components";
 import Image from "next/image";
-import categories from "@/style/categories";
+import categories from "@/data/categories";
 
 const words = Object.entries(categories).map((entry) => ({
 	color: entry[1].strong,

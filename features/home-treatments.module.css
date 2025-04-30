@@ -1,0 +1,30 @@
+.card {
+	background: var(--wind-blown);
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+
+.image {
+	height: auto;
+	width: 100%;
+}
+
+.label {
+	font-size: 1rem;
+	padding: 0 0.5rem;
+	text-align: center;
+}
+
+.price {
+	background: linear-gradient(to bottom, var(--blue-chip), var(--high-blue));
+	border-radius: 0.5rem;
+	box-shadow: 0 0 1px var(--noble-black);
+	color: var(--background);
+	line-height: 1;
+	margin-top: -1rem;
+	margin: -1rem auto 0;
+	padding: 0.5rem 1rem;
+	position: relative;
+	text-shadow: 1px 1px 1px var(--noble-black);
+	width: max-content;
+}

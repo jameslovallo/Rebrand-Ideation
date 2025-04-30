@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 import { HomeHero } from "@/features/home-hero";
 import { HomeCategories } from "@/features/home-categories";
 import { HomeSteps } from "@/features/home-steps";
-import { HomePodcast } from "@/features/home-podcast";
+import { HomeTreatments } from "@/features/home-treatments";
 import { HomeFaq } from "@/features/home-faq";
 import { BlurButton, FeaturedStory, Grid, PlaceholderBox } from "@/components";
 
@@ -38,17 +38,8 @@ export default function Home() {
 			</section> */}
 
 			<section>
-				<h2>Featured treatments</h2>
-				<p>
-					This would be customized based on the referral source, or past
-					behavior
-				</p>
-				<Grid scale="200px" gap="1rem">
-					<PlaceholderBox aspectRatio="1">Product</PlaceholderBox>
-					<PlaceholderBox aspectRatio="1">Product</PlaceholderBox>
-					<PlaceholderBox aspectRatio="1">Product</PlaceholderBox>
-					<PlaceholderBox aspectRatio="1">Product</PlaceholderBox>
-				</Grid>
+				<h2>Recommended for you</h2>
+				<HomeTreatments />
 				<br />
 				<BlurButton variant="filled">View all</BlurButton>
 			</section>
