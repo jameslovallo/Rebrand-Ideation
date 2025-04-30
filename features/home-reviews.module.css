@@ -1,0 +1,20 @@
+.review {
+	background: var(--wind-blown);
+	border-radius: 0.5rem;
+	padding: 1rem;
+}
+
+.stars {
+	display: flex;
+}
+
+.stars svg {
+	fill: var(--high-blue);
+	width: 24px;
+}
+
+.author {
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 1rem 0 0;
+}

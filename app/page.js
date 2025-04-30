@@ -4,7 +4,8 @@ import { HomeCategories } from "@/features/home-categories";
 import { HomeSteps } from "@/features/home-steps";
 import { HomeTreatments } from "@/features/home-treatments";
 import { HomeFaq } from "@/features/home-faq";
-import { BlurButton, FeaturedStory, Grid, PlaceholderBox } from "@/components";
+import { HomeReviews } from "@/features/home-reviews";
+import { BlurButton, FeaturedStory, Grid } from "@/components";
 
 export default function Home() {
 	return (
@@ -92,6 +93,11 @@ export default function Home() {
 					<FeaturedStory />
 					<FeaturedStory />
 				</Grid>
+			</section>
+
+			<section>
+				<h2>See what our customers are saying</h2>
+				<HomeReviews />
 			</section>
 		</main>
 	);

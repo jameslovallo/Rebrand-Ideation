@@ -1,5 +1,6 @@
 export { AccordionItem } from "./accordion-item";
 export { BlurButton } from "./blur-button";
+export { Carousel } from "./carousel";
 export { CategoryCard } from "./category-card";
 export { FeaturedStory } from "./featured-story";
 export { Footer } from "./footer";

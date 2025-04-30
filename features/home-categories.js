@@ -48,7 +48,7 @@ export const HomeCategories = () => (
 		</PhotoBlock>
 		<PhotoBlock img="/photography/home-block-3.jpg">
 			<div>
-				<h3>Regrow your hair</h3>
+				<h3>Get thick, healthy hair</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
 			</div>
 			<div>
@@ -56,7 +56,11 @@ export const HomeCategories = () => (
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
 			</div>
 			<div>
-				<h3>Age well</h3>
+				<h3>Look younger</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+			<div>
+				<h3>Age gracefully</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
 			</div>
 		</PhotoBlock>

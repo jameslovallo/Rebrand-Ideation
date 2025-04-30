@@ -5,6 +5,7 @@
 }
 
 .image {
+	aspect-ratio: 1;
 	height: auto;
 	width: 100%;
 }
@@ -13,11 +14,12 @@
 	font-size: 1rem;
 	padding: 0 0.5rem;
 	text-align: center;
+	z-index: -1;
 }
 
 .price {
 	background: linear-gradient(to bottom, var(--blue-chip), var(--high-blue));
-	border-radius: 0.5rem;
+	border-radius: 0.25rem;
 	box-shadow: 0 0 1px var(--noble-black);
 	color: var(--background);
 	line-height: 1;

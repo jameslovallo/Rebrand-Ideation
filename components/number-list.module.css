@@ -34,7 +34,7 @@
 	position: absolute;
 	top: 0;
 	width: 1em;
-	-webkit-text-stroke: 1px var(--blue-chip);
+	-webkit-text-stroke: 2px var(--blue-chip);
 	z-index: -1;
 }
 
