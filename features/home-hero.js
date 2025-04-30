@@ -21,7 +21,7 @@ export const HomeHero = ({ children }) => (
 				3 simple steps to <br /> improve your <WordChanger words={words} />
 			</h1>
 			{children}
-			<BlurButton variant="filled">Schedule a consult</BlurButton>
+			<BlurButton variant="filled">Get started</BlurButton>
 		</div>
 	</section>
 );

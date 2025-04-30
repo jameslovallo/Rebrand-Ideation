@@ -40,19 +40,12 @@ export default function Home() {
 			</section> */}
 
 			<section>
-				<h2>Recommended for you</h2>
-				<HomeTreatments />
-				<br />
-				<BlurButton variant="filled">View all</BlurButton>
+				<HomePriorityService />
 			</section>
 
 			<section>
 				<h2>Here's how it works.</h2>
 				<HomeSteps />
-			</section>
-
-			<section>
-				<HomePriorityService />
 			</section>
 
 			{/* <section>
@@ -63,6 +56,13 @@ export default function Home() {
 			<section>
 				<h2>See what our customers are saying</h2>
 				<HomeReviews />
+			</section>
+
+			<section>
+				<h2>Recommended for you</h2>
+				<HomeTreatments />
+				<br />
+				<BlurButton variant="filled">View all</BlurButton>
 			</section>
 
 			<section>
