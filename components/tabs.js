@@ -13,7 +13,7 @@ export const Tabs = ({ triggers, children }) => {
 					<li key={`trigger-${i}`}>
 						<button
 							style={{
-								color: i === active ? "var(--blue-chip)" : "",
+								color: i === active ? "var(--high-blue)" : "",
 							}}
 							onClick={() => {
 								setActive(i);
