@@ -9,23 +9,24 @@ import { BlurButton, FeaturedStory, Grid, PlaceholderBox } from "@/components";
 export default function Home() {
 	return (
 		<main className={styles.main}>
-			<HomeHero />
-
-			<section>
-				<h2>Are you ready to change your life?</h2>
+			<HomeHero>
+				<h2>Better health starts here.</h2>
 				<p>
 					Board-certified doctors. Licensed in all 50 states. Shipped to your
 					door.
 				</p>
+			</HomeHero>
+
+			<section>
+				<h2>How can we help you feel better?</h2>
+				<p>
+					At Transcend, we offer world-class therapies for a wide range of
+					health and fitness needs.
+				</p>
 				<HomeCategories />
 			</section>
 
-			<section>
-				<h2>Here's how it works.</h2>
-				<HomeSteps />
-			</section>
-
-			<section>
+			{/* <section>
 				<h2>Interactive content</h2>
 				<p>
 					This would be customized based on the referral source, or past
@@ -34,7 +35,7 @@ export default function Home() {
 					lead users to the intake form.
 				</p>
 				<PlaceholderBox aspectRatio="21/9">Interactive content</PlaceholderBox>
-			</section>
+			</section> */}
 
 			<section>
 				<h2>Featured treatments</h2>
@@ -50,6 +51,11 @@ export default function Home() {
 				</Grid>
 				<br />
 				<BlurButton variant="filled">View all</BlurButton>
+			</section>
+
+			<section>
+				<h2>Here's how it works.</h2>
+				<HomeSteps />
 			</section>
 
 			<section>
@@ -79,9 +85,14 @@ export default function Home() {
 				</Grid>
 			</section>
 
-			<section>
+			{/* <section>
 				<h2>Check out our podcast</h2>
 				<HomePodcast />
+			</section> */}
+
+			<section>
+				<h2>Frequently asked questions</h2>
+				<HomeFaq />
 			</section>
 
 			<section>
@@ -90,11 +101,6 @@ export default function Home() {
 					<FeaturedStory />
 					<FeaturedStory />
 				</Grid>
-			</section>
-
-			<section>
-				<h2>Frequently asked questions</h2>
-				<HomeFaq />
 			</section>
 		</main>
 	);

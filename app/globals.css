@@ -1,6 +1,15 @@
 :root {
+	/* Brand Colors */
+	--noble-black: #1d1f2a;
+	--blue-chip: #1d57a5;
+	--high-blue: #489fdf;
+	--over-the-sky: #99d6ea;
+	--wind-blown: #dbe2e9;
+	--anger: #e0004d;
+	/* Theme */
 	--background: oklch(98.5% 0.001 106.423);
 	--foreground: oklch(21.6% 0.006 56.043);
+	/* Typography */
 	--fs-sm: clamp(0.8rem, 0.18cqi + 0.75rem, 0.89rem);
 	--fs-base: clamp(1rem, 0.38cqi + 0.91rem, 1.19rem);
 	--fs-md: clamp(1.25rem, 0.67cqi + 1.08rem, 1.58rem);

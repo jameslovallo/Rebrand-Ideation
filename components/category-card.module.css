@@ -1,5 +1,10 @@
 .card {
-	background: var(--neutral-weak);
-	border-radius: 0.5rem;
-	padding: 0.5rem 1rem;
+	background: #ccc8;
+	backdrop-filter: blur(10px);
+	border-radius: 3rem;
+	padding: 1rem;
+}
+
+.card > * {
+	margin: 0;
 }

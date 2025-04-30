@@ -1,0 +1,21 @@
+.section {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.section img {
+	aspect-ratio: 3/4;
+	border-radius: 0.5rem;
+	grid-column: 1;
+	grid-row: 1 / span 2;
+	object-fit: cover;
+	width: 100%;
+}
+
+.section div {
+	background: var(--wind-blown);
+	border-radius: 0.5rem;
+	padding: 0 1rem;
+}

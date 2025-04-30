@@ -1,0 +1,33 @@
+.tabs {
+	display: flex;
+	list-style: none;
+	margin-left: -0.5rem;
+	padding: 0;
+}
+
+.tabs button {
+	background: transparent;
+	border: none;
+	color: inherit;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 0.5rem;
+	text-transform: uppercase;
+}
+
+.track {
+	border-radius: 0.5rem;
+	display: flex;
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	scroll-snap-type: x mandatory;
+}
+
+.track li {
+	min-width: 100%;
+	scroll-snap-align: start;
+	scroll-snap-stop: always;
+}

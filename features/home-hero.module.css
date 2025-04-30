@@ -1,4 +1,38 @@
+.hero {
+	align-items: start;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 8rem 0;
+	position: relative;
+}
+
+.hero img {
+	aspect-ratio: 3/2;
+	border-bottom-right-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	right: 0;
+	width: 60%;
+	z-index: -2;
+}
+
+.hero:before {
+	aspect-ratio: 3/2;
+	background: linear-gradient(to right, var(--background) 5%, transparent 30%);
+	content: "";
+	display: block;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	width: 60%;
+	z-index: -1;
+}
+
 .heading {
 	font-size: var(--fs-xxl);
 	margin: 0;
+	position: relative;
 }

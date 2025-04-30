@@ -1,58 +1,64 @@
-import { BlurButton, CategoryCard, Grid } from "@/components";
+import { PhotoBlock, Tabs } from "@/components";
 
 export const HomeCategories = () => (
-	<>
-		<Grid>
-			<CategoryCard category="performance">
-				<p>
-					Level up your{" "}
-					<span style={{ color: "var(--category-strong)" }}>performance</span>
-				</p>
-			</CategoryCard>
-			<CategoryCard category="weight">
-				<p>
-					Lower your{" "}
-					<span style={{ color: "var(--category-strong)" }}>weight</span>
-				</p>
-			</CategoryCard>
-			<CategoryCard category="sex">
-				<p>
-					Have better, longer{" "}
-					<span style={{ color: "var(--category-strong)" }}>sex</span>
-				</p>
-			</CategoryCard>
-			<CategoryCard category="hair">
-				<p>
-					Grow thicker{" "}
-					<span style={{ color: "var(--category-strong)" }}>hair</span>
-				</p>
-			</CategoryCard>
-			<CategoryCard category="hormones">
-				<p>
-					Regulate your{" "}
-					<span style={{ color: "var(--category-strong)" }}>hormones</span>
-				</p>
-			</CategoryCard>
-			<CategoryCard category="sleep">
-				<p>
-					Develop deeper{" "}
-					<span style={{ color: "var(--category-strong)" }}>sleep</span>
-				</p>
-			</CategoryCard>
-			<CategoryCard category="skin">
-				<p>
-					Get healthy, clear{" "}
-					<span style={{ color: "var(--category-strong)" }}>skin</span>
-				</p>
-			</CategoryCard>
-			<CategoryCard category="longevity">
-				<p>
-					Live better, and{" "}
-					<span style={{ color: "var(--category-strong)" }}>longer</span>
-				</p>
-			</CategoryCard>
-		</Grid>
-		<br />
-		<BlurButton variant="filled">Get Started</BlurButton>
-	</>
+	<Tabs triggers={[<div>Body</div>, <div>Brain</div>, <div>Beauty</div>]}>
+		<PhotoBlock img="/photography/home-block-1.jpg">
+			<div>
+				<h3>Lose weight</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+			<div>
+				<h3>Build muscle mass</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+			<div>
+				<h3>Have better sex</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+			<div>
+				<h3>Proactive care</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+		</PhotoBlock>
+		<PhotoBlock img="/photography/home-block-2.jpg">
+			<div>
+				<h3>Sleep better</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+			<div>
+				<h3>Regulate your hormones</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+			<div>
+				<h3>Boost cognitive function</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+			<div>
+				<h3>Have more energy</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+			{/* <div>
+				<h3>Manage anxiety</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+			<div>
+				<h3>Tackle depression</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div> */}
+		</PhotoBlock>
+		<PhotoBlock img="/photography/home-block-3.jpg">
+			<div>
+				<h3>Regrow your hair</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+			<div>
+				<h3>Have glowing skin</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+			<div>
+				<h3>Age well</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+		</PhotoBlock>
+	</Tabs>
 );

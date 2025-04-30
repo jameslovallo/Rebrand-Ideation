@@ -6,5 +6,7 @@ export { Footer } from "./footer";
 export { Grid } from "./grid";
 export { Nav } from "./nav";
 export { NumberList } from "./number-list";
+export { PhotoBlock } from "./photo-block";
 export { PlaceholderBox } from "./placeholder-box";
+export { Tabs } from "./tabs";
 export { WordChanger } from "./word-changer";
