@@ -83,8 +83,8 @@ export default function Home() {
 			</section> */}
 
 			<section>
-				<h2>Frequently asked questions</h2>
-				<HomeFaq />
+				<h2>See what our customers are saying</h2>
+				<HomeReviews />
 			</section>
 
 			<section>
@@ -96,8 +96,8 @@ export default function Home() {
 			</section>
 
 			<section>
-				<h2>See what our customers are saying</h2>
-				<HomeReviews />
+				<h2>Frequently asked questions</h2>
+				<HomeFaq />
 			</section>
 		</main>
 	);
