@@ -62,6 +62,6 @@ export const HomeFaq = () => (
 			</p>
 		</AccordionItem>
 		<br />
-		<BlurButton variant="filled">Get Started</BlurButton>
+		<BlurButton variant="filled">Schedule a consult</BlurButton>
 	</>
 );
