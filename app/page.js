@@ -66,11 +66,9 @@ export default function Home() {
 					<div>
 						<h2>Concierge service</h2>
 						<p>
-							Fugiat consequat aute sint excepteur aliquip tempor occaecat.
-							Consequat veniam non cupidatat eiusmod qui nostrud do nisi ea
-							deserunt laborum. Consequat eu cupidatat nostrud non cillum ad
-							irure consequat aute ullamco. Voluptate nostrud pariatur cillum
-							exercitation laborum quis.
+							Tailored to you and at your pace. Fully customized to your unique
+							health and fitness needs. Our wellness team provides personalized
+							guidance to help you make your health and fitness goals a reality.
 						</p>
 						<BlurButton variant="filled">Subscribe</BlurButton>
 					</div>
