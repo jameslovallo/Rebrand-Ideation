@@ -9,9 +9,9 @@
 }
 
 .list li {
-	background: linear-gradient(to bottom, var(--blue-chip), var(--high-blue));
+	background: linear-gradient(to bottom, var(--wind-blown), var(--wind-blown));
 	border-radius: 0.5rem;
-	color: var(--background);
+	color: var(--foreground);
 	counter-increment: section;
 	display: grid;
 	grid-template-rows: auto 1fr auto;
@@ -23,7 +23,7 @@
 
 .list li:before {
 	align-items: center;
-	color: var(--wind-blown);
+	color: transparent;
 	content: counter(section);
 	display: flex;
 	font-family: monospace;
@@ -32,9 +32,9 @@
 	height: 100%;
 	left: -4.25rem;
 	position: absolute;
-	text-shadow: 1px 1px 1px var(--noble-black);
 	top: 0;
 	width: 1em;
+	-webkit-text-stroke: 1px var(--blue-chip);
 	z-index: -1;
 }
 
