@@ -9,13 +9,9 @@
 }
 
 .list li {
-	background: linear-gradient(
-		to bottom,
-		oklch(55.3% 0.013 58.071),
-		oklch(70.9% 0.01 56.259)
-	);
+	background: linear-gradient(to bottom, var(--blue-chip), var(--high-blue));
 	border-radius: 0.5rem;
-	color: var(--neutral-weak);
+	color: var(--background);
 	counter-increment: section;
 	display: grid;
 	grid-template-rows: auto 1fr auto;
@@ -23,12 +19,11 @@
 	padding: 1rem;
 	position: relative;
 	text-align: center;
-	text-shadow: 1px 1px 1px oklch(55.3% 0.013 58.071);
 }
 
 .list li:before {
 	align-items: center;
-	color: var(--neutral-weak);
+	color: var(--wind-blown);
 	content: counter(section);
 	display: flex;
 	font-family: monospace;
@@ -37,6 +32,7 @@
 	height: 100%;
 	left: -4.25rem;
 	position: absolute;
+	text-shadow: 1px 1px 1px var(--noble-black);
 	top: 0;
 	width: 1em;
 	z-index: -1;
