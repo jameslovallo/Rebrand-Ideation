@@ -1,11 +1,12 @@
 import styles from "./page.module.css";
+import { BlurButton, FeaturedStory, Grid } from "@/components";
 import { HomeHero } from "@/features/home-hero";
 import { HomeCategories } from "@/features/home-categories";
 import { HomeSteps } from "@/features/home-steps";
 import { HomeTreatments } from "@/features/home-treatments";
 import { HomeFaq } from "@/features/home-faq";
 import { HomeReviews } from "@/features/home-reviews";
-import { BlurButton, FeaturedStory, Grid } from "@/components";
+import { HomePriorityService } from "@/features/home-priority-service";
 
 export default function Home() {
 	return (
@@ -51,28 +52,7 @@ export default function Home() {
 			</section>
 
 			<section>
-				<Grid scale="400px" gap="2rem">
-					<div>
-						<h2>Subscribe and save</h2>
-						<p>
-							Fugiat consequat aute sint excepteur aliquip tempor occaecat.
-							Consequat veniam non cupidatat eiusmod qui nostrud do nisi ea
-							deserunt laborum. Consequat eu cupidatat nostrud non cillum ad
-							irure consequat aute ullamco. Voluptate nostrud pariatur cillum
-							exercitation laborum quis.
-						</p>
-						<BlurButton variant="filled">Subscribe</BlurButton>
-					</div>
-					<div>
-						<h2>Concierge service</h2>
-						<p>
-							Tailored to you and at your pace. Fully customized to your unique
-							health and fitness needs. Our wellness team provides personalized
-							guidance to help you make your health and fitness goals a reality.
-						</p>
-						<BlurButton variant="filled">Subscribe</BlurButton>
-					</div>
-				</Grid>
+				<HomePriorityService />
 			</section>
 
 			{/* <section>

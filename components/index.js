@@ -10,4 +10,5 @@ export { NumberList } from "./number-list";
 export { PhotoBlock } from "./photo-block";
 export { PlaceholderBox } from "./placeholder-box";
 export { Tabs } from "./tabs";
+export { VideoBlock } from "./video-block";
 export { WordChanger } from "./word-changer";
