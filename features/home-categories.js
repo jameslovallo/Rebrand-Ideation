@@ -4,9 +4,9 @@ export const HomeCategories = () => (
 	<Tabs
 		triggers={[
 			<div>Body</div>,
-			<div>Brain</div>,
+			<div>Mind</div>,
 			<div>Beauty</div>,
-			<div>Sexuality</div>,
+			<div>Sexual Health</div>,
 		]}
 	>
 		<PhotoBlock img="/photography/home-block-1.jpg">
@@ -70,6 +70,36 @@ export const HomeCategories = () => (
 			</div>
 		</PhotoBlock>
 		<PhotoBlock img="/photography/home-block-3.jpg">
+			<div>
+				<h3>Get thick, healthy hair</h3>
+				<p>
+					We have solutions for hair loss, breakage, and thinning, for men,
+					women, and all hair types.
+				</p>
+			</div>
+			<div>
+				<h3>Have glowing skin</h3>
+				<p>
+					Get personalized care to help you look and feel your best, regardless
+					of your age or skin type.
+				</p>
+			</div>
+			<div>
+				<h3>Look and feel younger</h3>
+				<p>
+					It's not magic, it's science. Access the same care the top celebrities
+					use, at a fraction of the cost.
+				</p>
+			</div>
+			<div>
+				<h3>Age gracefully</h3>
+				<p>
+					Age catches up with us all, but with the right care, your body doesn't
+					have to slow down.
+				</p>
+			</div>
+		</PhotoBlock>
+		<PhotoBlock img="/photography/home-block-4.jpg">
 			<div>
 				<h3>Get thick, healthy hair</h3>
 				<p>

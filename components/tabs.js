@@ -17,8 +17,10 @@ export const Tabs = ({ triggers, children }) => {
 							}}
 							onClick={() => {
 								setActive(i);
+								const childCount = children.length;
+								const width = track.current.scrollWidth;
 								track.current.scrollTo({
-									left: track.current.children[i].offsetLeft,
+									left: (width / childCount) * i,
 									behavior: "smooth",
 								});
 							}}
