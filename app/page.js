@@ -1,12 +1,12 @@
 import styles from "./page.module.css";
 import { BlurButton, FeaturedStory, Grid } from "@/components";
 import { HomeHero } from "@/features/home-hero";
-import { HomeCategories } from "@/features/home-categories";
+import { HomeServices } from "@/features/home-services";
+import { HomePriorityService } from "@/features/home-priority-service";
 import { HomeSteps } from "@/features/home-steps";
+import { HomeReviews } from "@/features/home-reviews";
 import { HomeTreatments } from "@/features/home-treatments";
 import { HomeFaq } from "@/features/home-faq";
-import { HomeReviews } from "@/features/home-reviews";
-import { HomePriorityService } from "@/features/home-priority-service";
 
 export default function Home() {
 	return (
@@ -25,7 +25,7 @@ export default function Home() {
 					At Transcend, we offer world-class therapies for a wide range of
 					health and fitness needs.
 				</p>
-				<HomeCategories />
+				<HomeServices />
 			</section>
 
 			{/* <section>

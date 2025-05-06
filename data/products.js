@@ -6,24 +6,6 @@ export default [
 		price: 187,
 	},
 	{
-		name: "MAPS Performance",
-		image:
-			"https://shop.transcendcompany.com/cdn/shop/files/4_8d86e7c0-802e-473f-b6d0-e1f7ce0e3ac9.png?v=1740688032&width=533",
-		price: 147,
-	},
-	{
-		name: "MAPS Anabolic",
-		image:
-			"https://shop.transcendcompany.com/cdn/shop/files/1.png?v=1740687851&width=533",
-		price: 117,
-	},
-	{
-		name: "MAPS 15",
-		image:
-			"https://shop.transcendcompany.com/cdn/shop/files/5_fbe96fb4-5509-4703-bb32-fde820ea69c0.png?v=1741017773&width=533",
-		price: 107,
-	},
-	{
 		name: "MAPS Split Program",
 		image:
 			"https://shop.transcendcompany.com/cdn/shop/files/3_74acca40-4d02-4f95-8579-07e2b4dfd2c6.png?v=1740687991&width=533",
@@ -34,5 +16,17 @@ export default [
 		image:
 			"https://shop.transcendcompany.com/cdn/shop/files/2.png?v=1740687966&width=533",
 		price: 107,
+	},
+	{
+		name: "GLP-1 Probiotic",
+		image:
+			"https://shop.transcendcompany.com/cdn/shop/files/88.png?v=1738954940&width=493",
+		price: 50,
+	},
+	{
+		name: "Male Basic Hormone Panel",
+		image:
+			"https://shop.transcendcompany.com/cdn/shop/files/4.svg?v=1720466744&width=493",
+		price: 99,
 	},
 ];
