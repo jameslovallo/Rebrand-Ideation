@@ -32,7 +32,9 @@ export const Tabs = ({ triggers, children }) => {
 			</ul>
 			<ul ref={track} className={styles.track}>
 				{children.map((child, i) => (
-					<li key={`child-${i}`}>{child}</li>
+					<li key={`child-${i}`} inert={i !== active}>
+						{child}
+					</li>
 				))}
 			</ul>
 		</div>
