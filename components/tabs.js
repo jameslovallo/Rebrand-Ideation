@@ -10,11 +10,9 @@ export const Tabs = ({ triggers, children, activeTab = 0 }) => {
 
 	useEffect(() => {
 		const width = track.current.scrollWidth;
-		track.current.scrollTo({
-			left: (width / childCount) * active,
-			behavior: "smooth",
-		});
-	}, [active]);
+		track.current.scrollTo({ left: (width / childCount) * activeTab });
+		setActive(activeTab);
+	}, [activeTab]);
 
 	return (
 		<div>

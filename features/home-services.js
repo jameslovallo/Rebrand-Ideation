@@ -1,12 +1,15 @@
 "use client";
 
 import { ServiceBlock, Tabs } from "@/components";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export const HomeServices = () => {
+	const [activeTab, setActiveTab] = useState(0);
+
 	useEffect(() => {
 		const params = new URLSearchParams(location.search);
 		const campaign = params.get("utm_campaign");
+		if (campaign === "ed") setActiveTab(3);
 	}, []);
 
 	return (
@@ -17,6 +20,7 @@ export const HomeServices = () => {
 				<div>Beauty</div>,
 				<div>Sexual Health</div>,
 			]}
+			activeTab={activeTab}
 		>
 			<ServiceBlock img="/photography/home-block-1.jpg">
 				<div>
