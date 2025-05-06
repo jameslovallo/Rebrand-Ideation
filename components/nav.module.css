@@ -1,11 +1,10 @@
 .mainNav ul {
 	align-items: center;
 	display: flex;
-	gap: 1rem;
 	list-style: none;
 	margin: 0 auto;
 	max-width: 1200px;
-	padding: 1rem;
+	padding: 1rem 0.5rem;
 
 	li {
 		font-size: 14px;
@@ -21,5 +20,22 @@
 
 	li:first-child {
 		margin-right: auto;
+	}
+
+	li:not(:first-child) {
+		a {
+			border-radius: 0.5rem;
+			display: inline-block;
+			padding: 0.5rem;
+
+			&:hover {
+				background: var(--wind-blown);
+				color: var(--blue-chip);
+			}
+		}
+	}
+
+	li:has([class*="blur-button"]) {
+		padding: 0 0.5rem;
 	}
 }

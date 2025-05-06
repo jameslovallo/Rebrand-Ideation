@@ -33,7 +33,7 @@ export const HomeFaq = () => (
 				and our team will notify you as soon as they become available.
 			</p>
 		</AccordionItem>
-		<AccordionItem title="I recently underwent lab work elsewhere; will Transcend accept those results?">
+		<AccordionItem title="I have recent lab work, will Transcend accept those results?">
 			<p>
 				At Transcend, our assessments require a unique and comprehensive blood
 				panel to ensure accurate and personalized health insights. Therefore, we

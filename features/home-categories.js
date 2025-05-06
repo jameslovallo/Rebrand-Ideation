@@ -1,4 +1,4 @@
-import { PhotoBlock, Tabs } from "@/components";
+import { ServiceBlock, Tabs } from "@/components";
 
 export const HomeCategories = () => (
 	<Tabs
@@ -9,7 +9,7 @@ export const HomeCategories = () => (
 			<div>Sexual Health</div>,
 		]}
 	>
-		<PhotoBlock img="/photography/home-block-1.jpg">
+		<ServiceBlock img="/photography/home-block-1.jpg">
 			<div>
 				<h3>Lose weight</h3>
 				<p>
@@ -25,10 +25,10 @@ export const HomeCategories = () => (
 				</p>
 			</div>
 			<div>
-				<h3>Have better sex</h3>
+				<h3>Sleep better</h3>
 				<p>
-					If you want to get harder and last longer, or just feel less pain,
-					you've come to the right place.
+					Do you feel energized, confident, and ready to tackle your day. You
+					deserve to! Sleep therapy can help.
 				</p>
 			</div>
 			<div>
@@ -38,20 +38,20 @@ export const HomeCategories = () => (
 					before problems begin.
 				</p>
 			</div>
-		</PhotoBlock>
-		<PhotoBlock img="/photography/home-block-2.jpg">
-			<div>
-				<h3>Sleep better</h3>
-				<p>
-					Do you feel energized, confident, and ready to tackle your day. You
-					deserve to! Sleep therapy can help.
-				</p>
-			</div>
+		</ServiceBlock>
+		<ServiceBlock img="/photography/home-block-2.jpg">
 			<div>
 				<h3>Regulate your hormones</h3>
 				<p>
 					Our team will dive into your medical history and order lab work to
 					help diagnose any imbalances.
+				</p>
+			</div>
+			<div>
+				<h3>Manage your anxiety</h3>
+				<p>
+					Hormones, genetics, and lifestyle all contribute to anxiety. Get the
+					expert help you need to find balance.
 				</p>
 			</div>
 			<div>
@@ -68,8 +68,8 @@ export const HomeCategories = () => (
 					kids, without the energy drinks.
 				</p>
 			</div>
-		</PhotoBlock>
-		<PhotoBlock img="/photography/home-block-3.jpg">
+		</ServiceBlock>
+		<ServiceBlock img="/photography/home-block-3.jpg">
 			<div>
 				<h3>Get thick, healthy hair</h3>
 				<p>
@@ -98,8 +98,8 @@ export const HomeCategories = () => (
 					have to slow down.
 				</p>
 			</div>
-		</PhotoBlock>
-		<PhotoBlock img="/photography/home-block-4.jpg">
+		</ServiceBlock>
+		<ServiceBlock img="/photography/home-block-4.jpg">
 			<div>
 				<h3>Get thick, healthy hair</h3>
 				<p>
@@ -128,6 +128,6 @@ export const HomeCategories = () => (
 					have to slow down.
 				</p>
 			</div>
-		</PhotoBlock>
+		</ServiceBlock>
 	</Tabs>
 );

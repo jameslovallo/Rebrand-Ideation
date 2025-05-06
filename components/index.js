@@ -7,7 +7,7 @@ export { Footer } from "./footer";
 export { Grid } from "./grid";
 export { Nav } from "./nav";
 export { NumberList } from "./number-list";
-export { PhotoBlock } from "./photo-block";
+export { ServiceBlock } from "./service-block";
 export { PlaceholderBox } from "./placeholder-box";
 export { Tabs } from "./tabs";
 export { VideoBlock } from "./video-block";

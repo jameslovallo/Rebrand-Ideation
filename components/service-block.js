@@ -1,7 +1,7 @@
-import styles from "./photo-block.module.css";
+import styles from "./service-block.module.css";
 import Image from "next/image";
 
-export const PhotoBlock = ({
+export const ServiceBlock = ({
 	img = "/photography/home-block-1.jpg",
 	children,
 }) => (
