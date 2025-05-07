@@ -20,10 +20,10 @@ export const Nav = () => (
 				<a href="#">Body</a>
 			</li>
 			<li>
-				<a href="#">Mind</a>
+				<a href="#">Brain</a>
 			</li>
 			<li>
-				<a href="#">Beauty</a>
+				<a href="#">Appearance</a>
 			</li>
 			<li>
 				<a href="#">Sexual Health</a>

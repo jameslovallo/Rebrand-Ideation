@@ -16,8 +16,8 @@ export const HomeServices = () => {
 		<Tabs
 			triggers={[
 				<div>Body</div>,
-				<div>Mind</div>,
-				<div>Beauty</div>,
+				<div>Brain</div>,
+				<div>Appearance</div>,
 				<div>Sexual Health</div>,
 			]}
 			activeTab={activeTab}
